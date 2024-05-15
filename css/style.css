@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Area aonde o game ira aparecer  */
+.game-board {
+    width: 100%;
+    height: 759px;
+    border-bottom: 21px solid rgb(81, 239, 81);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87ceeb, #e0f6ff);
+}
+
+/* Formatação do tubo da tela  */
+.pipe {
+   position: absolute; 
+   bottom: 0;
+   width: 80px;
+   animation: pipe-animation 1.5s infinite linear; 
+}
+
+/* Estilização do mario */
+
+.mario {
+   width: 450px;
+   bottom: 0;
+   position: absolute;  
+}
+
+.jump {
+    animation: jump 500ms ease-out;   
+}
+
+.clouds {
+    position: absolute;
+    width: 550px;
+    animation: clouds-animation 15s infinite linear;
+}
+.button {
+  width: 150px;
+  padding: 10px;
+  font-family: fantasy;
+  border-radius: 90px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(251, 255, 23);
+}
+.dirt_color{
+  background-color: maroon;
+  margin-left: center;
+  margin-right: auto;
+  display: block;
+}
+
+/* Animação dos tubos */
+@keyframes pipe-animation {
+    from {
+       right: -80px;
+    }
+
+    to {
+       right: 100%;
+    }
+}
+
+/* Animação do mario  */
+@keyframes jump {
+  
+  0% {
+    bottom: 0;
+  }  
+
+  40% {
+    bottom: 180px;
+  }
+
+  50% {
+    bottom: 180px;
+  }
+
+  60% {
+    bottom: 180px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes clouds-animation {
+    from {
+     right: -550px;
+    }
+
+    to {
+      right: 100%;
+
+    }
+}
