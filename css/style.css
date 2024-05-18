@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Area aonde o game ira aparecer  */
+.game-board {
+    width: 100%;
+    height: 759px;
+    border-bottom: 21px solid #4d6f39;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87ceeb, #e0f6ff);
+}
+
+/* Formatação do tubo da tela  */
+.pipe {
+   position: absolute; 
+   bottom: 0;
+   width: 80px;
+   animation: pipe-animation 1.5s infinite linear; 
+}
+
+/* Estilização do mario */
+
+.mario {
+   width: 450px;
+   bottom: 0;
+   position: absolute;  
+}
+
+.jump {
+    animation: jump 500ms ease-out;   
+}
+
+.clouds {
+    position: absolute;
+    width: 550px;
+    animation: clouds-animation 15s infinite linear;
+}
+
+.score{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-size: medium;
+  font-family: fantasy;
+}
+
+.button {
+  position: relative;
+  padding: 35px;
+  font-family: fantasy;
+  border-radius: 0px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -35px;
+  display: block;
+  width: 6%;
+  background-color: rgb(250, 210, 52);
+  color: rgb(226, 104, 43);
+  border-top-width: 5px ;
+  border-bottom-width: 5px;
+  border-right-width: 5px ;
+  border-left-width: 5px;
+  border-color: rgb(226, 104, 43);
+
+}
+
+.ground{
+  width: 2680px;
+  padding: 0;
+  position: fixed;
+  bottom: 0px;
+}
+
+.dirt_color{
+  background-color: rgba(92, 2, 2, 0.432);
+  margin-left: center;
+  margin-right: auto;
+  display: block;
+  padding: 80px;
+}
+
+/* Animação dos tubos */
+@keyframes pipe-animation {
+    from {
+       right: -80px;
+    }
+
+    to {
+       right: 100%;
+    }
+}
+
+/* Animação do mario  */
+@keyframes jump {
+  
+  0% {
+    bottom: 0;
+  }  
+
+  40% {
+    bottom: 180px;
+  }
+
+  50% {
+    bottom: 180px;
+  }
+
+  60% {
+    bottom: 180px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes clouds-animation {
+    from {
+     right: -550px;
+    }
+
+    to {
+      right: 100%;
+
+    }
+}
