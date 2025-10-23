@@ -3,22 +3,21 @@
     <td valign="top" width="50%" style="text-align: center;">
       • 📚 Estudante de Ciências Da Computação</br>
       • 🧭 Desenvolvedor full-stack</br>
-      ‎‎ ‎  ‎  • HTML 5</br>
-       ‎  ‎ ‎  • CSS 3</br>
-       ‎  ‎  ‎ • Bootstrap</br>
-       ‎  ‎  ‎ • JavaScript</br>
-       ‎  ‎  ‎ • Python</br>
-       ‎  ‎ ‎  • C#</br>
-       ‎  ‎ ‎  • PostgresSQL</br>
-       ‎  ‎ ‎  • SQlite</br>
-       ‎  ‎ ‎  • MySQL Workbench</br>
-       ‎ ‎ ‎   • NoSQL</br>
-       ‎ ‎ ‎   • JSON</br>
-       ‎  ‎  ‎ • Django</br>
-            • .NET</br>
-            • Docker</br>
-            • GitHub Actions</br>
-      • 💾 Técnico de informática</br>
+      ‎‎• HTML 5</br>
+      • CSS 3</br>
+      • Bootstrap</br>
+      • JavaScript</br>
+      • Python</br>
+      • C#</br>
+      • PostgresSQL</br>
+      • SQlite</br>
+      • MySQL Workbench</br>
+      • NoSQL</br>
+      • JSON</br>
+      • Django</br>
+      • .NET</br>
+      • Docker</br>
+      • GitHub Actions</br>
       </br>
         </br>
           </br>
