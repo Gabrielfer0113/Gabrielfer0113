@@ -1,8 +1,8 @@
 <table border="0" style="table-layout: fixed; width: 100%;">
   <tr>
     <td valign="top" width="50%" style="text-align: center;">
-      • 📚 Estudante de Ciências Da Computação</br>
-      • 🧭 Desenvolvedor full-stack</br>
+      • Estudante de Ciências Da Computação | 4° Semestre</br>
+      • Desenvolvedor full-stack</br>
       ‎‎• HTML 5</br>
       • CSS 3</br>
       • Bootstrap</br>
